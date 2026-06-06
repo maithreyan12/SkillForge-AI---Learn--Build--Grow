@@ -11,10 +11,18 @@
 const fs   = require('fs');
 const path = require('path');
 
-const DB_FILE = path.join(__dirname, 'data', 'db.json');
+const DB_FILE = process.env.VERCEL
+  ? path.join('/tmp', 'db.json')
+  : path.join(__dirname, 'data', 'db.json');
 
 // Ensure the data directory and file exist
 function ensureFile() {
+  if (process.env.VERCEL) {
+    if (!fs.existsSync(DB_FILE)) {
+      fs.writeFileSync(DB_FILE, JSON.stringify({ contacts: [], subscribers: [] }, null, 2));
+    }
+    return;
+  }
   const dir = path.join(__dirname, 'data');
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   if (!fs.existsSync(DB_FILE)) {
