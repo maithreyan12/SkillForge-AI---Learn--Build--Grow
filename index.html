@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SkillForge AI - Learn, Build, and Grow with project-based pathways and cutting-edge intelligence curricula for developers, designers, and innovators.">
+  <meta name="keywords" content="SkillForge, AI education, Agentic AI, Web engineering, learning paths, tech stack development">
+  <meta name="author" content="SkillForge AI">
+  
+  <!-- Open Graph / Social Cards -->
+  <meta property="og:title" content="SkillForge AI - Learn, Build, Grow">
+  <meta property="og:description" content="Unlock your engineering potential with AI-guided learning and projects.">
+  <meta property="og:image" content="./assets/hero_banner.png">
+  <meta property="og:type" content="website">
+
+  <title>SkillForge AI – Learn, Build, Grow</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SVG Gradients Definition -->
+  <svg style="position: absolute; width: 0; height: 0;" aria-hidden="true">
+    <defs>
+      <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00f2fe" />
+        <stop offset="100%" stop-color="#38bdf8" />
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- --- HEADER / NAVIGATION --- -->
+  <header id="main-header">
+    <div class="container nav-container">
+      <a href="#" class="logo" id="logo-link">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+        </svg>
+        <span>SkillForge<span class="text-gradient">AI</span></span>
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#" class="nav-link active" id="link-hero">Home</a></li>
+          <li><a href="#about" class="nav-link" id="link-about">About Us</a></li>
+          <li><a href="#services" class="nav-link" id="link-services">Tracks</a></li>
+          <li><a href="#pathfinder" class="nav-link" id="link-pathfinder">AI Pathway Finder</a></li>
+          <li><a href="#testimonials" class="nav-link" id="link-testimonials">Success Stories</a></li>
+          <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section id="hero" class="section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1>Forge Your Future With <span class="text-gradient">Agentic Intellect</span></h1>
+        <p>Step into the future of learning. Build enterprise-ready projects, master agentic AI pipelines, and accelerate your tech career with precision-targeted curricula.</p>
+        <div class="hero-cta">
+          <a href="#pathfinder" class="btn btn-primary" id="hero-cta-primary">Find Your Pathway</a>
+          <a href="#about" class="btn btn-secondary" id="hero-cta-secondary">Explore Tracks</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual">
+        <!-- Floating Glassmorphic Badges -->
+        <div class="floating-badge badge-1 glass" id="hero-badge-1">
+          <span style="font-size: 1.25rem;">🧠</span>
+          <div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">ENGINE TYPE</div>
+            <div style="color: var(--accent-cyan);">Agentic LLM v4.2</div>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-2 glass" id="hero-badge-2">
+          <span style="font-size: 1.25rem;">⚡</span>
+          <div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">LEARNERS</div>
+            <div style="color: var(--accent-violet);">15K+ Active</div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img src="./assets/hero_banner.png" alt="Futuristic technology AI brain representation neural graphic" id="hero-banner-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- ABOUT US SECTION --- -->
+  <section id="about" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <h2>Who We Are</h2>
+        <p>A global community of makers, builders, and developers training the next wave of computational builders.</p>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-card glass" id="about-stat-1">
+            <span class="about-card-stat text-gradient">98%</span>
+            <h4 class="about-card-title">Completion Rate</h4>
+            <p class="about-card-desc">Industry-certified project pathways designed to guide builders to the finish line.</p>
+          </div>
+          
+          <div class="about-card glass" id="about-stat-2">
+            <span class="about-card-stat text-gradient-alt">4.9★</span>
+            <h4 class="about-card-title">Student Rating</h4>
+            <p class="about-card-desc">Rated top tier for interactive syllabus designs and active mentorship networks.</p>
+          </div>
+          
+          <div class="about-card glass" id="about-stat-3">
+            <span class="about-card-stat text-gradient-alt">12+</span>
+            <h4 class="about-card-title">Active Tracks</h4>
+            <p class="about-card-desc">Focusing on modern backend architecture, UX principles, and robotic agent engineering.</p>
+          </div>
+          
+          <div class="about-card glass" id="about-stat-4">
+            <span class="about-card-stat text-gradient">24/7</span>
+            <h4 class="about-card-title">AI Assistance</h4>
+            <p class="about-card-desc">Real-time debugger assistance built directly into the workspace environments.</p>
+          </div>
+        </div>
+        
+        <div class="about-content">
+          <h3>Democratizing Deep Intelligence</h3>
+          <p>Traditional learning structures are too slow for the pace of modern technological breakthroughs. At SkillForge AI, we discard outdated lectures in favor of direct, project-centric building blocks.</p>
+          <p>Our platform merges cognitive science, LLM-guided assistance, and community validation to create a workflow where you learn by actually shipping code.</p>
+          
+          <ul class="about-features">
+            <li>
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"/></svg>
+              Project-driven Syllabus
+            </li>
+            <li>
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"/></svg>
+              Sandbox Environments
+            </li>
+            <li>
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"/></svg>
+              GitHub-Ready Portfolio
+            </li>
+            <li>
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"/></svg>
+              Decentralized Reviews
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- SERVICES / LEARNING TRACKS SECTION --- -->
+  <section id="services" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <h2>Specialized Learning Tracks</h2>
+        <p>Curated curriculums targeted at bringing you from zero to expert in key modern tech stacks.</p>
+      </div>
+      
+      <div class="services-grid">
+        <article class="service-card glass" id="track-ai">
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 113.536 0V21h2v-4.9a5 5 0 01-1.072 0z"/></svg>
+          </div>
+          <h3>AI Engineering & LLMs</h3>
+          <p>Build and scale applications powered by transformer architectures, vector embeddings, and multi-agent frameworks like LangChain and AutoGen.</p>
+          <a href="#pathfinder" class="service-link">View Track Details <svg fill="none" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></a>
+        </article>
+        
+        <article class="service-card glass" id="track-web">
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          </div>
+          <h3>Modern Web Engineering</h3>
+          <p>Master fast, production-ready, accessible web applications using React, Next.js, responsive Tailwind, and high-performance serverless endpoints.</p>
+          <a href="#pathfinder" class="service-link">View Track Details <svg fill="none" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></a>
+        </article>
+        
+        <article class="service-card glass" id="track-agent">
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          </div>
+          <h3>Autonomous Agent Pipelines</h3>
+          <p>Dive deep into agentic loops, task planning, subagent hierarchies, state managers, tool call mechanisms, and safety guardrails.</p>
+          <a href="#pathfinder" class="service-link">View Track Details <svg fill="none" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></a>
+        </article>
+        
+        <article class="service-card glass" id="track-design">
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          </div>
+          <h3>Product UI/UX Design</h3>
+          <p>Learn premium design systems, motion graphics, interface layout aesthetics, glassmorphism CSS models, and visual hierarchies that wow users.</p>
+          <a href="#pathfinder" class="service-link">View Track Details <svg fill="none" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- ADDITIONAL INTERACTIVE SECTION: AI CAREER PATHFINDER --- -->
+  <section id="pathfinder" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <h2>Interactive Career Pathfinder</h2>
+        <p>Use our AI Recommendation engine to generate an immediate, custom curriculum matching your skill set and goals.</p>
+      </div>
+      
+      <div class="pathfinder-box glass">
+        <form class="pathfinder-form" id="pathfinder-form">
+          <div class="form-group">
+            <label for="experience-level">Select Experience Level</label>
+            <select id="experience-level" class="custom-select">
+              <option value="beginner">Beginner (No coding experience)</option>
+              <option value="intermediate" selected>Intermediate (Basic JavaScript / HTML / Python)</option>
+              <option value="advanced">Advanced (Proficient developer looking to level up)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="interest-track">Select Main Area of Focus</label>
+            <select id="interest-track" class="custom-select">
+              <option value="ai">AI Application Developer (LLMs, Prompts, Agents)</option>
+              <option value="web">Next-Gen Web Engineer (React, Styling, APIs)</option>
+              <option value="agents">Agentic System Architect (Self-Refinement, Tools)</option>
+              <option value="design">Interactive UI/UX Designer (Aesthetics, CSS Engines)</option>
+            </select>
+          </div>
+          
+          <button type="submit" class="btn btn-primary pathfinder-btn" id="generate-path-btn">
+            Generate Personalized Curricula
+          </button>
+        </form>
+        
+        <!-- Results panel target -->
+        <div class="pathfinder-result" id="pathfinder-result">
+          <div class="result-header">
+            <div class="result-title">
+              <h4 id="result-curriculum-title">Advanced Agentic AI Curriculum</h4>
+              <span class="result-badge" id="result-curriculum-badge">AI Core Track</span>
+            </div>
+            <div class="result-meta">
+              <div class="meta-item">
+                <span class="meta-label">Est. Duration</span>
+                <span class="meta-val" id="result-curriculum-duration">6 Weeks</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Total Projects</span>
+                <span class="meta-val" id="result-curriculum-projects">4 Custom Builds</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="syllabus-timeline" id="syllabus-timeline">
+            <!-- Dynamic JavaScript syllabus injection here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- TESTIMONIALS SECTION --- -->
+  <section id="testimonials" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Alumni Say</h2>
+        <p>Meet real builders who transformed their careers and launched products via SkillForge.</p>
+      </div>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass" id="testimonial-1">
+          <blockquote class="testimonial-quote">
+            "The Project Pathfinder tool created a syllabus that exactly matched my goals. Within four weeks, I built and deployed my first Multi-Agent AI system, which helped me land an AI Specialist role."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">AP</div>
+            <div class="author-details">
+              <h4>Aarav Patel</h4>
+              <p>AI Engineer at NeuralSpace</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card glass" id="testimonial-2">
+          <blockquote class="testimonial-quote">
+            "I loved the focus on styling and aesthetics. Building complex interfaces using custom CSS models taught me UI design techniques that documentation alone could never express."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">SC</div>
+            <div class="author-details">
+              <h4>Sarah Chen</h4>
+              <p>Lead Creative Designer at Vercel</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card glass" id="testimonial-3">
+          <blockquote class="testimonial-quote">
+            "Having automated feedback and continuous code checks meant I could build at 2 AM without waiting for a grader. The community sandbox is unparalleled."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">MK</div>
+            <div class="author-details">
+              <h4>Marcus K.</h4>
+              <p>Full-Stack Engineer at Supabase</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- COLLABORATION BANNER (InAmigos Foundation) --- -->
+  <section id="collaboration" class="reveal">
+    <div class="container">
+      <div class="collab-inner">
+        <div class="collab-label">
+          <span></span>
+          Official Collaboration
+        </div>
+
+        <div class="collab-logos">
+          <!-- SkillForge AI side -->
+          <div class="collab-brand">
+            <div class="collab-brand-label">Built by</div>
+            <div class="collab-sf-logo">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+              SkillForge<span class="text-gradient">AI</span>
+            </div>
+            <div class="collab-brand-label" style="margin-top:0.25rem">Vellore, Tamil Nadu 🇮🇳</div>
+          </div>
+
+          <!-- Divider -->
+          <div class="collab-divider">×</div>
+
+          <!-- InAmigos Foundation side -->
+          <div class="collab-iaf-logo">
+            <div class="collab-brand-label">In partnership with</div>
+            <img src="./assets/iaf_logo.png" alt="InAmigos Foundation IAF Logo" id="iaf-logo-collab">
+            <div class="collab-iaf-name">
+              <span>InAmigos Foundation</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="collab-tagline">
+          This project was proudly created as part of the <strong>InAmigos Foundation</strong> internship programme —
+          empowering students to build real-world, AI-powered digital products and share them with the world.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- CONTACT US SECTION --- -->
+  <section id="contact" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <h2>Connect With Us</h2>
+        <p>Have questions about curriculum matching, sandbox configurations, or corporate programs?</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-title">
+            <h3>Let's Spark a Project Idea</h3>
+            <p>Fill out the form, and our coordinator (or specialized subagent assistant) will reply in minutes.</p>
+          </div>
+          
+          <div class="contact-details">
+            <div class="contact-item" id="contact-mail">
+              <div class="contact-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Support Email</h4>
+                <p><a href="mailto:maithreyan2006@gmail.com" style="color:var(--accent-cyan);text-decoration:none">maithreyan2006@gmail.com</a></p>
+              </div>
+            </div>
+            
+            <div class="contact-item" id="contact-location">
+              <div class="contact-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Our Location</h4>
+                <p>Vellore, Tamil Nadu, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-box glass">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="input-group">
+              <input type="text" id="contact-name" class="input-field" placeholder=" " required>
+              <label for="contact-name" class="input-label">Your Name</label>
+            </div>
+            
+            <div class="input-group">
+              <input type="email" id="contact-email" class="input-field" placeholder=" " required>
+              <label for="contact-email" class="input-label">Email Address</label>
+            </div>
+            
+            <div class="input-group">
+              <textarea id="contact-message" class="input-field" placeholder=" " required></textarea>
+              <label for="contact-message" class="input-label">Message Details</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" id="contact-submit-btn">Send Message</button>
+            
+            <div class="form-message" id="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" id="footer-logo">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+          </svg>
+          <span>SkillForge<span class="text-gradient">AI</span></span>
+        </a>
+        <p>Empowering the next generation of engineers to learn, build codebases, and grow alongside AI architectures.</p>
+        <div class="footer-iaf-badge">
+          <img src="./assets/iaf_logo.png" alt="InAmigos Foundation">
+          <span>In collaboration with <strong style="color:var(--text-primary)">InAmigos Foundation</strong></span>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#" id="footer-nav-home">Home</a></li>
+          <li><a href="#about" id="footer-nav-about">About Us</a></li>
+          <li><a href="#services" id="footer-nav-services">Tracks</a></li>
+          <li><a href="#pathfinder" id="footer-nav-pathfinder">Pathfinder</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="#" id="footer-plat-terms">Terms of Use</a></li>
+          <li><a href="#" id="footer-plat-privacy">Privacy Policy</a></li>
+          <li><a href="#" id="footer-plat-help">Help Desk</a></li>
+          <li><a href="#" id="footer-plat-careers">Careers</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Subscribe to our newsletter to receive new project alerts weekly.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email" aria-label="Email for Newsletter" required id="newsletter-input">
+          <button type="submit" aria-label="Subscribe" id="newsletter-submit-btn">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 SkillForge AI. Built by Maithreyan · Vellore, Tamil Nadu 🇮🇳 · In collaboration with InAmigos Foundation. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer" id="social-linkedin">
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="https://github.com" class="social-link" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer" id="social-github">
+          <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

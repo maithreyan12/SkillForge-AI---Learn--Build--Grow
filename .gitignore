@@ -1,0 +1,5 @@
+node_modules/
+data/skillforge.db
+.env
+*.log
+screenshots/

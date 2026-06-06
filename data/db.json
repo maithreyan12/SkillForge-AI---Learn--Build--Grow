@@ -1,0 +1,26 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Test User",
+      "email": "test@example.com",
+      "message": "Hello from SkillForge backend test!",
+      "created_at": "2026-06-06T05:31:52.447Z"
+    },
+    {
+      "id": 2,
+      "name": "Mani",
+      "email": "ashammed101@gmail.com",
+      "message": "Mani I am fine",
+      "created_at": "2026-06-06T06:50:16.215Z"
+    },
+    {
+      "id": 3,
+      "name": "Mani Test",
+      "email": "ashammed101@gmail.com",
+      "message": "This is a live test of Resend integration",
+      "created_at": "2026-06-06T06:57:22.446Z"
+    }
+  ],
+  "subscribers": []
+}
