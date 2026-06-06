@@ -247,8 +247,9 @@ app.get('*', (req, res) => {
 });
 
 // ─── Start Server ─────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
-  console.log(`
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`
 ╔══════════════════════════════════════════════════════╗
 ║           SkillForge AI – Backend Server             ║
 ║  Author  : Maithreyan <maithreyan2006@gmail.com>     ║
@@ -259,5 +260,8 @@ app.listen(PORT, () => {
 ║  📡  POST /api/newsletter                            ║
 ║  📡  GET  /api/stats                                 ║
 ╚══════════════════════════════════════════════════════╝
-  `);
-});
+    `);
+  });
+}
+
+module.exports = app;
